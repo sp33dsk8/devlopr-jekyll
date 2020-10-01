@@ -1,9 +1,22 @@
 -
-  title: Mountains
-  directory: mountains
+  title: epmt
+  directory: epmt
   preview:
-    filename: 1.jpg
-    original: 1-thumbnail.jpg
-    sizes:
-    - 1-thumbnail.jpg
-    thumbnail: 1-thumbnail.jpg
+    filename: cputime_per_exe.png
+    original: cputime_per_exe.png
+    thumbnail: cputime_per_exeT.png
+-
+  title: trojantriage
+  directory: trojantriage
+  preview:
+    filename: typePage.png
+    original: typePage.png
+    thumbnail: typePageT.png
+- 
+  title: Keimano
+  directory: keimano
+  preview:
+    filename: dataFlow.png
+    original: dataFlow.png
+    thumbnail: dataFlowT.png
+

@@ -1,0 +1,20 @@
+picture_path: keimano
+preview:
+  filename: dataFlow
+  original: dataFlowT.png
+  sizes:
+  - dataFlowT.png
+  thumbnail: dataFlowT.png
+pictures:
+- filename: dataFlow
+  title: 
+  original: dataFlow.png
+  sizes:
+  - dataFlow.png
+  thumbnail: dataFlow.png
+- filename: results
+  title: Results of Keimano Crawler
+  original: results.png
+  sizes:
+  - results.png
+  thumbnail: results.png

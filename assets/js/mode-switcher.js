@@ -26,8 +26,8 @@ function modeSwitcher() {
 		sessionStorage.setItem('theme', 'dark');
 		// document.getElementById("theme-toggle").innerHTML = "Light Mode";
 	} else if (systemInitiatedDark.matches) {
-		document.documentElement.setAttribute('data-theme', 'light');
-		sessionStorage.setItem('theme', 'light');
+		document.documentElement.setAttribute('data-theme', 'dark');
+		sessionStorage.setItem('theme', 'dark');
 		//let theme = sessionStorage.getItem('theme');
 		//console.log("this was triggered");
 		// document.getElementById("theme-toggle").innerHTML = "Dark Mode";

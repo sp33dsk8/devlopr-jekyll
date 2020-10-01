@@ -1,0 +1,20 @@
+picture_path: trojantriage
+preview:
+  filename: typePageT.png
+  original: typePageT.png
+  sizes:
+  - typePageT.png
+  thumbnail: typePageT.png
+pictures:
+- filename: typePage
+  title: photo of trojan triage
+  original: typePage.png
+  sizes:
+  - typePage.png
+  thumbnail: typePage.png
+- filename: typeDetails
+  title: photo of trojan triage
+  original: typeDetails.png
+  sizes:
+  - typeDetails.png
+  thumbnail: typeDetails.png

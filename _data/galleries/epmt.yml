@@ -1,0 +1,29 @@
+picture_path: epmt
+preview:
+  filename: cputime_per_exeT
+  original: cputime_per_exeT.png
+  sizes:
+  - cputime_per_exeT.png
+  thumbnail: cputime_per_exeT.png
+pictures:
+- filename: cputime_per_exe
+  title: cputime_per_exe
+  original: cputime_per_exe.png
+  sizes:
+  - cputime_per_exe.png
+  caption: test
+  thumbnail: cputime_per_exe.png
+- filename: 3d_pca_cpu_time
+  title: 3d_pca_cpu_time
+  original: 3d_pca_cpu_time.png
+  sizes:
+  - 3d_pca_cpu_time.png
+  caption: test
+  thumbnail: 3d_pca_cpu_time.png
+- filename: jobs_by_duration
+  title: jobs_by_duration
+  original: jobs_by_duration.png
+  sizes:
+  - jobs_by_duration.png
+  caption: test
+  thumbnail: jobs_by_duration.png
