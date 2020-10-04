@@ -7,13 +7,13 @@ preview:
   thumbnail: typePageT.png
 pictures:
 - filename: typePage
-  title: photo of trojan triage
+  title: Landing page of Trojan Triage, malware by category
   original: typePage.png
   sizes:
   - typePage.png
   thumbnail: typePage.png
 - filename: typeDetails
-  title: photo of trojan triage
+  title: List of malware samples showing severity and MD5
   original: typeDetails.png
   sizes:
   - typeDetails.png

@@ -8,12 +8,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 theme_color: ff7601
 
 urls:
+    - text: About
+      url : /
     - text: Resume
       url : /resume
+    - text: Recent Projects
+      url: /projects
     - text: Gallery
       url: /gallery
-    - text: Blog
-      url: /blog
     - text: Contact Me
       url : /contact
 
@@ -32,7 +34,7 @@ author_work_experiences:
             - company_name: Minimal Metrics
               company_logo: mm_orange.png
               company_url:
-              designation: Software Engineer
+              designation: Software Engineer - (10/2018 - 8/2020)
               description: Write and test features written in Python and Make using various ORM along with Docker Virtualization
               visibility: true
             - company_name: 
@@ -46,14 +48,13 @@ author_education_details:
               - college_logo: uwf.png
                 college_name: University of West Florida
                 college_url: https://uwf.edu/
-                college_degree: Computer Science, Cyber Security
+                college_degree: Computer Science, Cyber Security - 2018
                 description: Bachelors Degree
                 visibility: true
               - college_logo: nwfsc.jpg
                 college_name: Northwest Florida State College
                 college_url: https://nwfsc.edu/
-                college_degree: Associates of Arts
-                description: Bachelor of Technology
+                college_degree: Associates in Arts - 2013
                 visibility: true
 
 author_project_details:
@@ -105,9 +106,9 @@ show_author_education_details: true
 show_author_project_details: false
 
 # pagination of posts
-paginate: 4
-per_page: 4
-paginate_path: "/blog/page/:num/"
+paginate: 6
+per_page: 6
+paginate_path: "/projects/page/:num/"
 
 # minify
 # compress_html:
@@ -126,8 +127,8 @@ paginate_path: "/blog/page/:num/"
 #     category: '/category/:name/'
 
 # Shop
-collections:
- - products
+#collections:
+# - products
 
 # Gallery
 defaults:
@@ -167,5 +168,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - build.sh
 
 destination: ./build

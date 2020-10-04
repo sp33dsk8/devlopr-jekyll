@@ -4,12 +4,13 @@ title:  "Welcome to devlopr jekyll !"
 summary: Hello World ! This is a sample post
 author: John Doe
 date: '2019-05-22 14:35:23 +0530'
-category: jekyll
+category:
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
 permalink: /blog/welcome-to-devlopr-jekyll
 youtubeId: 6IDT3MpSCKI
 youtubeId2: _Wlsd9mljiU
+display: true
 
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

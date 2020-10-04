@@ -1,19 +1,19 @@
 -
-  title: epmt
+  title: Data Visualization with Minimal Metrics
   directory: epmt
   preview:
     filename: cputime_per_exe.png
     original: cputime_per_exe.png
     thumbnail: cputime_per_exeT.png
 -
-  title: trojantriage
+  title: Trojan Triage, bulk malware sorter and disassembler
   directory: trojantriage
   preview:
     filename: typePage.png
     original: typePage.png
     thumbnail: typePageT.png
 - 
-  title: Keimano
+  title: Keimano, AWS NLP web crawler for less than $0.02 per hour
   directory: keimano
   preview:
     filename: dataFlow.png

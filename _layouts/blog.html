@@ -7,6 +7,7 @@ layout: default
               <ul>
                   <div class="row">
                       {% for post in paginator.posts %}
+                      {% if post.display == true %}
                       <div class="card blog-post">
                         <a href="{{ post.url | prepend: site.baseurl }}.html" data-disqus-identifier="{{ post.url }}">
                         <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
@@ -23,6 +24,7 @@ layout: default
                           </div>
                         </a>
                         </div>
+                        {% endif %}
                       {% endfor %}
                   </div>
               </ul>
