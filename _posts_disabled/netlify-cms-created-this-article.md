@@ -3,7 +3,7 @@ layout: post
 author: John Doe
 title: Netlify CMS created this Article
 date: 2020-05-22T09:52:20.613Z
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail:
 category:
 summary: Demo Content using Netlify CMS
 keywords: using netlify cms with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms
