@@ -22,6 +22,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap', '~> 1.4.0'
     gem 'jekyll-menus', '~> 0.6.1'
     gem 'jekyll-admin', '~> 0.10.2'
+    gem "jekyll-pdf-embed"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
